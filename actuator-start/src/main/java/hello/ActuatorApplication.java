@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
 
-@Import(OrderConfigV3.class)
+@Import(OrderConfigV4.class)
 @SpringBootApplication(scanBasePackages = "hello.controller")
 public class ActuatorApplication {
 
